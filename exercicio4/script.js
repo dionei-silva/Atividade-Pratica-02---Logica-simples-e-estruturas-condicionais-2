@@ -5,7 +5,7 @@ distribuidor seja de 28% e os impostos de 45%, escrever um
 algoritmo para ler o custo de fábrica de um carro,calcular e escrever
 o custo final ao consumidor. */
 
-const custoFabrica = 28000
+const custoFabrica = Number(promt("digite o custo de fabrica"))
 const imposto = 0.45
 const distribuidor = 0.28
 
